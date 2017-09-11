@@ -19,8 +19,8 @@ export default angular.module( 'starter-app', [ 'ngMaterial', Users.name ] )
       .icon("hangouts", "./assets/svg/hangouts.svg", 24)
       .icon("twitter", "./assets/svg/twitter.svg", 24)
       .icon("phone", "./assets/svg/phone.svg", 24)
-      .icon("phone", "./assets/svg/light-bulb.svg", 24)
-      .icon("phone", "./assets/svg/machine.svg", 24);
+      .icon("light-bulb", "./assets/svg/light-bulb.svg", 24)
+      .icon("machine", "./assets/svg/machine.svg", 24);
 
     $mdThemingProvider.theme('default')
       .primaryPalette('brown')
